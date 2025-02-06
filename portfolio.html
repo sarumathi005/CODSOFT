@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Sarumathi</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: white;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    nav {
+      display: flex;
+      gap: 1rem;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: #6f42c1;
+    }
+
+    .hero {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      min-height: 90vh;
+      padding: 2rem;
+      background-color: #ffffff;
+    }
+
+    .hero-text {
+      max-width: 50%;
+    }
+
+    h1 {
+      font-size: 3rem;
+      color: #333;
+    }
+
+    p {
+      font-size: 1.2rem;
+      color: #555;
+      line-height: 1.6;
+    }
+
+    .buttons {
+      margin-top: 1.5rem;
+    }
+
+    .button {
+      background-color: #6f42c1;
+      color: white;
+      padding: 0.7rem 1.5rem;
+      text-decoration: none;
+      border-radius: 25px;
+      margin-right: 1rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .button:hover {
+      background-color: #4b2985;
+    }
+
+    .social-icons {
+      margin-top: 1.5rem;
+      display: flex;
+      gap: 0.8rem;
+    }
+
+    .social-icons a {
+      color: #333;
+      font-size: 2rem;
+      text-decoration: none;
+    }
+
+    img {
+      width: 300px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>&lt; sarumathi Portfolio &gt;</h2>
+    <nav>
+       <a href="#">Skills</a>
+      <a href="#">Open Source</a>
+      <a href="#">Projects</a>
+      <a href="#">Achievements</a>
+      <a href="#">Blogs</a>
+      <a href="#">Contact Me</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <h1>Hi all I'm Sarumathi👋</h1>
+      <p>
+        A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.
+      </p>
+
+      <div class="buttons">
+        <a href="#" class="button">Contact Me</a>
+        <a href="#" class="button" style="background-color: #6c757d;">See My Resume</a>
+      </div>
+
+      <div class="social-icons">
+        <a href="#"><i class="fab fa-github">G</i></a>
+        <a href="#"><i class="fab fa-linkedin">L</i></a>
+        <a href="#"><i class="fab fa-google">G</i></a>
+      </div>
+    </div>
+
+    <img src="https://www.adobe.com/acrobat/hub/media_1837bfb01fe9942b8c27653ae8e11ce8ee7a40bcc.jpeg?width=750&format=jpeg&optimize=medium" alt="Illustration of Developer">
+  </section>
+</body>
+</html>
