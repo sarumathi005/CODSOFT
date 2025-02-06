@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f3f3f3;
+      color: #333;
+    }
+
+    header {
+      background-color: pink;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    header nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero-section {
+      text-align: center;
+      padding: 4rem 2rem;
+      background-color: rgb(223, 23, 100);
+      color: white;
+    }
+
+    .hero-section h1 {
+      font-size: 3rem;
+    }
+
+    .hero-section p {
+      font-size: 1.2rem;
+      margin-top: 1rem;
+    }
+
+    .btn {
+      background-color: #FF5722;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 20px;
+      text-transform: uppercase;
+    }
+
+    .btn:hover {
+      background-color: #FF784E;
+    }
+
+    .features-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+      padding: 2rem;
+    }
+
+    .feature {
+      background-color: white;
+      padding: 1.5rem;
+      border-radius: 10px;
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      text-align: center;
+    }
+
+    .feature h3 {
+      margin: 1rem 0;
+      color: #4CAF50;
+    }
+
+    .footer {
+      background-color: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Landing Page</h2>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero-section">
+    <h1>Welcome to Our Website!</h1>
+    <p>We provide top-notch web solutions for businesses and individuals.</p>
+    <button class="btn">Get Started</button>
+  </section>
+
+  <section class="features-section">
+    <div class="feature">
+      <h3>Fast Performance</h3>
+      <p>Our services are optimized for speed and efficiency.</p>
+    </div>
+    <div class="feature">
+      <h3>Responsive Design</h3>
+      <p>Fully compatible across all devices and screen sizes.</p>
+    </div>
+    <div class="feature">
+      <h3>24/7 Support</h3>
+      <p>Our team is here to help you any time, any day.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2025 Your Company Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
